@@ -23,7 +23,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
                 return new HomeFragment();
 
             case 1:
-                return new EsportsFragment();
+                return new TechnologyFragment();
 
             case 2:
                 return new SportsFragment();

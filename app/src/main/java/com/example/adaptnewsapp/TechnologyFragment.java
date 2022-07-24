@@ -17,26 +17,25 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class BusinessFragment extends Fragment {
-
+public class TechnologyFragment extends Fragment {
 
     String api="b575efe42ace400b8178b767afca23aa";
     ArrayList<ModelClass> modelClassArrayList;
     Adapter adapter;
     String country="ph";
-    private RecyclerView recyclerViewofbusiness;
-    private String category="business";
+    private RecyclerView recyclerViewoftechnology;
+    private String category="technology";
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v=inflater.inflate(R.layout.businessfragment, null);
+        View v=inflater.inflate(R.layout.technologyfragment, null);
 
-        recyclerViewofbusiness=v.findViewById(R.id.recyclerviewofbusiness);
+        recyclerViewoftechnology=v.findViewById(R.id.recyclerviewoftechnology);
         modelClassArrayList=new ArrayList<>();
-        recyclerViewofbusiness.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerViewoftechnology.setLayoutManager(new LinearLayoutManager(getContext()));
         adapter=new Adapter(getContext(),modelClassArrayList);
-        recyclerViewofbusiness.setAdapter(adapter);
+        recyclerViewoftechnology.setAdapter(adapter);
 
         findNews();
         return v;
@@ -60,4 +59,5 @@ public class BusinessFragment extends Fragment {
         });
 
     }
+}
 }

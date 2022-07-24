@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(mtoolbar);
 
         mhome=findViewById(R.id.home);
-        mesports=findViewById(R.id.esports);
+        mesports=findViewById(R.id.technology);
         msports=findViewById(R.id.sports);
         mshowbiz=findViewById(R.id.showbiz);
         minternational=findViewById(R.id.international);
