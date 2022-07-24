@@ -1,10 +1,13 @@
 package com.example.adaptnewsapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
@@ -16,12 +19,17 @@ public class MainActivity extends AppCompatActivity {
     PagerAdapter pagerAdapter;
     Toolbar mtoolbar;
 
-    String api="b575efe42ace400b8178b767afca23aa";
+    String api="c1c144d7abe640c3b57f30ab7a0a7dfd";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Typeface tf=Typeface.createFromAsset(getAssets(),"fonts/DailymirrorPersonalUseRegular-7B7gP.ttf");
+        TextView header=findViewById(R.id.adaptheader);
+        header.setTypeface(tf);
 
         mtoolbar=findViewById(R.id.toolbar);
         setSupportActionBar(mtoolbar);
