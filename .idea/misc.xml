@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/activity_main.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/businessfragment.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/esportsfracment.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/homefragment.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/internationalfragment.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/showbizfragment.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/sportsfragment.xml" value="0.35280797101449274" />
       </map>
     </option>
   </component>

@@ -24,14 +24,74 @@
                 android:text="ADAPT"
                 android:textStyle="bold"
                 android:textSize="20sp"
-
-
-
+                android:textColor="#03A9F4">
+            </TextView>
 
         </RelativeLayout>
 
     </androidx.appcompat.widget.Toolbar>
 
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/include"
+        android:layout_below="@+id/toolbar"
+        app:tabTextColor="#618C8F"
+        app:tabSelectedTextColor="#03A9F4"
+        app:tabIndicatorColor="#03A9F4"
+        app:tabIndicatorHeight="3.5dp"
+        android:layout_marginTop="0dp"
+        app:tabMode="scrollable"
+        android:background="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:id="@+id/home">
+
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ESPORTS"
+            android:id="@+id/esports">
+
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPORTS"
+            android:id="@+id/sports">
+
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOWBIZ"
+            android:id="@+id/showbiz">
+
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INTERNATIONAL"
+            android:id="@+id/international">
+
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUSINESS"
+            android:id="@+id/business">
+
+        </com.google.android.material.tabs.TabItem>
+
+    </com.google.android.material.tabs.TabLayout>
 
 
 </RelativeLayout>
