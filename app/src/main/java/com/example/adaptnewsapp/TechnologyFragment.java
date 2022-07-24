@@ -23,6 +23,7 @@ public class TechnologyFragment extends Fragment {
     ArrayList<ModelClass> modelClassArrayList;
     Adapter adapter;
     String country="ph";
+    String language="en";
     private RecyclerView recyclerViewoftechnology;
     private String category="technology";
 
@@ -42,7 +43,7 @@ public class TechnologyFragment extends Fragment {
     }
 
     private void findNews() {
-        ApiUtilities.getApiInterface().getCategoryNews(country,category,100,api).enqueue(new Callback<mainNews>() {
+        ApiUtilities.getApiInterface().getCategoryNews(country,category,language,100,api).enqueue(new Callback<mainNews>() {
             @Override
             public void onResponse(Call<mainNews> call, Response<mainNews> response) {
                 if(response.isSuccessful())
