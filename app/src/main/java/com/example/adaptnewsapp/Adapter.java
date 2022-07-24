@@ -69,7 +69,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             mcontent=itemView.findViewById(R.id.content);
             mauthor=itemView.findViewById(R.id.author);
             imageView=itemView.findViewById(R.id.imageview);
-            mtime=itemView.findViewById(R.id.time);
             cardView=itemView.findViewById(R.id.cardview);
         }
     }
