@@ -22,7 +22,7 @@ public class InternationalFragment extends Fragment {
     String api="b575efe42ace400b8178b767afca23aa";
     ArrayList<ModelClass> modelClassArrayList;
     Adapter adapter;
-    String country="ph";
+    String country="";
     private RecyclerView recyclerViewofinternational;
     private String category="general";
 
