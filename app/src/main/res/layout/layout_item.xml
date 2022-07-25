@@ -5,13 +5,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:elevation="5dp"
         android:padding="10dp"
-        android:layout_margin="2dp"
-        app:cardCornerRadius="10dp"
-        android:id="@+id/cardview"
-        android:elevation="5dp">
+        app:cardCornerRadius="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,14 +22,14 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/mainheading"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:id="@+id/mainheading"
-                android:padding="5dp"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:textColor="@color/black"
+                android:padding="5dp"
                 android:text="Main heading display is here"
+                android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold">
 
@@ -39,39 +42,43 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/content"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:ellipsize="end"
                     android:maxLines="6"
                     android:padding="5dp"
-                    android:id="@+id/content"
-                    android:textSize="15sp"
-                    android:text="main content main content">
-                </TextView>
+                    android:text="main content main content"
+                    android:textSize="15sp"></TextView>
 
                 <ImageView
+                    android:id="@+id/imageview"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:padding="5dp"
                     android:layout_weight="1"
+                    android:padding="5dp"
                     android:scaleType="centerCrop"
-                    android:id="@+id/imageview"
-                    android:src="@drawable/ic_launcher_background">
-                </ImageView>
+                    android:src="@drawable/ic_launcher_background"></ImageView>
 
             </LinearLayout>
 
             <TextView
+                android:id="@+id/author"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="This is a test"
-                android:textSize="13sp"
-                android:textStyle="italic"
-                android:id="@+id/author"
                 android:textColor="@color/purple_200"
-                android:padding="5dp">
-            </TextView>
+                android:textSize="13sp"
+                android:textStyle="italic"></TextView>
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Save Article" />
 
         </LinearLayout>
 
