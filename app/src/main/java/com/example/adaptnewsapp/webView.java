@@ -23,6 +23,8 @@ public class webView extends AppCompatActivity {
         Intent intent=getIntent();
         String url=intent.getStringExtra("url");
         webView.setWebViewClient(new WebViewClient());
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         webView.loadUrl(url);
     }
 }
