@@ -10,8 +10,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/adaptWord"
-        android:layout_width="280dp"
-        android:layout_height="188dp"
+        android:layout_width="290dp"
+        android:layout_height="158dp"
         android:background="@drawable/Adapt_word_part"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,8 +24,8 @@
 
     <ImageView
         android:id="@+id/adaptIcon"
-        android:layout_width="305dp"
-        android:layout_height="183dp"
+        android:layout_width="286dp"
+        android:layout_height="155dp"
         android:background="@drawable/ADAPT_icon_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
