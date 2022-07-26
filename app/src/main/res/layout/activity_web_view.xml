@@ -19,21 +19,23 @@
         android:gravity="center_vertical">
 
         <TextView
+            android:id="@+id/adaptheadlines"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ADAPT HEADLINES"
             android:textColor="#03A9F4"
-            android:textSize="20sp"
-            android:textStyle="bold"></TextView>
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
     </RelativeLayout>
 
     </androidx.appcompat.widget.Toolbar>
 
     <WebView
+        android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/webview"
-        android:layout_below="@id/toolbar">
-    </WebView>
+        android:layout_below="@id/toolbar"></WebView>
 
 </RelativeLayout>
