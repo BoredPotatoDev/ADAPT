@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/drawable/ic_adapt_icon_banner.xml" value="0.2195" />
         <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/activity_web_view.xml" value="0.2504528985507246" />
         <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/businessfragment.xml" value="0.2504528985507246" />
         <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/internationalfragment.xml" value="0.2504528985507246" />
         <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/layout_item.xml" value="0.2504528985507246" />
         <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/showbizfragment.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/arajm/AndroidStudioProjects/ADAPTnewsapp/app/src/main/res/layout/splash.xml" value="0.20697463768115942" />
       </map>
     </option>
   </component>
