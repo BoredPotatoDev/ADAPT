@@ -8,15 +8,15 @@
     tools:context=".splash">
 
     <pl.droidsonroids.gif.GifImageView
-        android:layout_width="414dp"
-        android:layout_height="243dp"
+        android:layout_width="840px"
+        android:layout_height="492.1px"
         android:background="@drawable/transparent_icon_banner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.354">
+        app:layout_constraintVertical_bias="0.455">
 
     </pl.droidsonroids.gif.GifImageView>
 
