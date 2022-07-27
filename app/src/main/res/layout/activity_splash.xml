@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    app:layoutDescription="@xml/activity_splash_scene"
     tools:context=".splash">
 
-    <pl.droidsonroids.gif.GifImageView
-        android:layout_width="840px"
-        android:layout_height="492.1px"
-        android:background="@drawable/transparent_icon_banner"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/adaptWord"
+        android:layout_width="251dp"
+        android:layout_height="140dp"
+        android:background="@drawable/adapt_word_part"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.455">
+        app:layout_constraintTop_toTopOf="parent" />
 
-    </pl.droidsonroids.gif.GifImageView>
+    <ImageView
+        android:id="@+id/adaptIcon"
+        android:layout_width="250dp"
+        android:layout_height="165dp"
+        android:background="@drawable/adapt_icon_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.motion.widget.MotionLayout>
