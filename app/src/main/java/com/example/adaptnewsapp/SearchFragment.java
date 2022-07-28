@@ -1,9 +1,11 @@
 package com.example.adaptnewsapp;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,7 +19,8 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class SearchFragment {
+public class SearchFragment extends Fragment{
+
     String api="c1c144d7abe640c3b57f30ab7a0a7dfd";
     ArrayList<ModelClass> modelClassArrayList;
     Adapter adapter;
@@ -34,8 +37,8 @@ public class SearchFragment {
 
         recyclerViewofsearch=v.findViewById(R.id.recyclerviewofsearch);
         modelClassArrayList=new ArrayList<>();
-        recyclerViewofsearch.setLayoutManager(new LinearLayoutManager(getContext()));
-        adapter=new Adapter(getContext(),modelClassArrayList);
+        recyclerViewofsearch.setLayoutManager(new LinearLayoutManager(container.getContext()));
+        adapter=new Adapter(container.getContext(), modelClassArrayList);
         recyclerViewofsearch.setAdapter(adapter);
 
         findNews();

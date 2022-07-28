@@ -19,14 +19,14 @@
             android:name=".webView"
             android:exported="false" />
         <activity
-            android:name=".search"
+            android:name=".splash"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:launchMode="singleTop" />
         <activity
-            android:name=".splash"
+            android:name=".search"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
