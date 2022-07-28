@@ -9,7 +9,6 @@ public class ModelClass {
         this.description = description;
         this.url = url;
         this.urlToImage = urlToImage;
-        this.publishedAT = publishedAT;
     }
 
     public String getAuthor() {
@@ -52,11 +51,4 @@ public class ModelClass {
         this.urlToImage = urlToImage;
     }
 
-    public String getPublishedAT() {
-        return publishedAT;
-    }
-
-    public void setPublishedAT(String publishedAT) {
-        this.publishedAT = publishedAT;
-    }
 }

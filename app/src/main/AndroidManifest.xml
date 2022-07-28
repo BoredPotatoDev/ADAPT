@@ -19,9 +19,12 @@
             android:name=".webView"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:launchMode="singleTop"
+            android:name=".search"
             android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
         <activity
             android:name=".splash"
             android:exported="true">

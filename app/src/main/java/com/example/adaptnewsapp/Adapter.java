@@ -58,7 +58,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder{
 
-        TextView mheading,mcontent,mauthor,mcategory,mtime;
+        TextView mheading,mcontent,mauthor,mcategory;
         CardView cardView;
         ImageView imageView;
 

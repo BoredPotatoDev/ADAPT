@@ -23,4 +23,14 @@ public interface ApiInterface {
             @Query("pageSize") int pagesize,
             @Query("apiKey") String apikey
     );
+
+    @GET("everything")
+    Call<mainNews> getSearch(
+            @Query("q") String question,
+            @Query("searchIn") String searchin,
+            @Query("language") String language,
+            @Query("sortBy") String sortby,
+            @Query("pageSize") int pagesize,
+            @Query("apiKey") String apikey
+    );
 }

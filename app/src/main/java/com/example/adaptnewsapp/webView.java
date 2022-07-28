@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.TextView;
 
 public class webView extends AppCompatActivity {
     Toolbar toolbar;
@@ -16,6 +18,11 @@ public class webView extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
+
+        Typeface tf=Typeface.createFromAsset(getAssets(),"fonts/DailymirrorPersonalUseRegular-7B7gP.ttf");
+        TextView header=findViewById(R.id.adaptheadlines);
+        header.setTypeface(tf);
+
         toolbar=findViewById(R.id.toolbar);
         webView=findViewById(R.id.webview);
         setSupportActionBar(toolbar);
